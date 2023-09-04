@@ -201,9 +201,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-09-03 08:39:22 / 修改时间：22:34:51" itemprop="dateCreated datePublished" datetime="2023-09-03T08:39:22+08:00">2023-09-03</time>
+      <time title="创建时间：2023-09-03 08:39:22" itemprop="dateCreated datePublished" datetime="2023-09-03T08:39:22+08:00">2023-09-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-09-04 21:50:17" itemprop="dateModified" datetime="2023-09-04T21:50:17+08:00">2023-09-04</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -225,8 +231,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h3 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h3><p><img src="https://pan.afetera.top/api/raw/?path=/tupian/lfsf1.png" alt="廊坊师范校园网登录"><br>校园网登录地址<br>219.243.75.136<br>Dns地址<br>219.243.79.6<br>网关<br>192.168.223.254<br>nslookup返回结果是<br>172.31.21.1</p>
-<h2 id="尚未完成"><a href="#尚未完成" class="headerlink" title="尚未完成"></a>尚未完成</h2>
+          <h3 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h3><p><img src="https://pan.afetera.top/api/raw/?path=/tupian/lfsf1.png" alt="廊坊师范校园网登录"><br>校园网登录地址<br>219.243.75.136<br>Dns地址<br>219.243.79.6<br>网关<br>192.168.223.254<br>nslookup返回结果是<br>172.31.21.1<br>###搭建服务<br>申请一台linux服务器，放行适当端口(53,65,66,67,68,443等)<br>有个域名，域名的dns设置中添加一条A记录，解析到你服务器上<br>下载编译vpnserver</p>
+<h6 id="注意-这里是64位的程序！！！"><a href="#注意-这里是64位的程序！！！" class="headerlink" title="注意 这里是64位的程序！！！"></a>注意 这里是64位的程序！！！</h6><p><code>wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.34-9745-beta/softether-vpnserver-v4.34-9745-beta-2020.04.05-linux-x64-64bit.tar.gz</code></p>
+<h6 id="建议使用github下载加速，不然20kb每秒的速度会让你抓狂"><a href="#建议使用github下载加速，不然20kb每秒的速度会让你抓狂" class="headerlink" title="建议使用github下载加速，不然20kb每秒的速度会让你抓狂"></a>建议使用github下载加速，不然20kb每秒的速度会让你抓狂</h6><p>解压缩<br><code>tar -zxvf softether-vpnserver-v4.34-9745-beta-2020.04.05-linux-x64-64bit.tar.gz</code><br>编译<br><code>cd   下载的文件夹 make</code><br>启动虚拟专用网服务<br><code>./vpnserver start</code><br>设置管理密码<br><code>./vpncmd</code><br>输入<br><code>ServerPasswordSet</code><br>设置管理密码<br>电脑上下载softEther vpn manager<br>安装时只安装最后一个管理工具<br>然后一律关闭多余窗口，有些工具咱用不到<br>点击新配置，然后填入如图所示的参数<br><img src="https://pan.afetera.top/api/raw/?path=/tupian/sev.png" alt="vv"><br>填好，回到程序主页，点连接<br>找【管理虚拟HUB】-左上角【管理用户】-左下角【新建用户】<br>窗口左边，填入用户名，右边填入密码 点确定<br>回到【管理用户页】找【虚拟NAT和虚拟DHCP服务器】<br>点击【启用secureNAT】会弹出警告，点确定即可<br>回到管理主页，然后点击【openvpn&#x2F;ms-sspt】设置<br>把【监听openVPN的UDP端口】填入<br><code>53, 65, 66, 67, 68</code><br>点确定，再回到openvpn&#x2F;ms-sspt】设置，然后点击【为OpenVPN Client生成配置样本文件】<br>打开输出的压缩包中名字含有l3的ovpn文件<br>修改remote字段为你提前设置好解析的域名，端口暂时不用动，如果连不上再换上面填的<br>最后把ovpn文件导入到openvpn客户端中，填入你之前设置好的账号密码<br>尝试再公网连接，若连接成功则表明你之前的所有操作都无误，如果不行就一点点检查哪里出了问题<br>最后一步连接学校wifi，不登录账号尝试连接vpn</p>
+<h3 id="待尝试"><a href="#待尝试" class="headerlink" title="待尝试"></a>待尝试</h3>
       
     </div>
 
