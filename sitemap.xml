@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://afetera.top/2023/07/22/ensp%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2024-08-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://afetera.top/links/index.html</loc>
     
     <lastmod>2024-08-11</lastmod>
@@ -215,6 +224,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://afetera.top/tags/HCIA/</loc>
+    <lastmod>2024-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://afetera.top/tags/ENSP/</loc>
+    <lastmod>2024-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -247,6 +270,13 @@
   
   <url>
     <loc>https://afetera.top/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://afetera.top/categories/ICT/</loc>
     <lastmod>2024-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
