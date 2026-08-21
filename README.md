@@ -1,0 +1,2 @@
+# afetera.github.io
+blog
